@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="icon" href="assets/icon_shadow.png">
+		<title>reveal.js</title>
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img class="img" src="assets/logo_shadow.png" alt="Logo Eclipse">
+					<div class="titles">
+						<h2>Eclipse</h2>
+						<h3 class="slogan">Explore the universe in a fun and interactive manner.<br>For kids between 7 - 11</h3>
+						<p>Manaus Transez<br>Kevin Leemans<br>Stijn Stevens<br>Jordy Van Der Haegen</p>
+					</div>
+				</section>
+				<section>
+					<div class="titles">
+						<h3>What is ECLIPSE 4 Kids?</h3>
+					</div>
+					<ul>
+						<li>Interactive interface for learning about the universe</li>
+						<li>Fun way of sparking interest about space</li>
+					</ul>
+				</section>
+				<section>
+					<div class="titles">
+						<h3>What is our goal?</h3>
+					</div>
+					<ul>
+						<li>To bring back a sense of wonder and interest</li>
+						<li>To inspire the next generations to look up to the skies</li>
+						<li>To explore the universe by exploring Earth</li>
+					</ul>
+				</section>
+				<section>
+					<div class="titles">
+						<h3>Our solution</h3>
+					</div>
+					<p>Come check out our stand at the market! We'll explain everything you need to know.</p>
+				</section>
+				<section>
+					<div class="titles">
+						<h3>Technology</h3>
+					</div>
+					<img src="assets/mern-stack.png" alt="MERN stack">
+				</section>
+				<section>
+					<div class="titles">
+						<h3>Data</h3>
+					</div>
+					<ul>
+						<li>Firebase Authentication</li>
+						<li>Geolocation / Google Maps API</li>
+						<li>Light Pollution data</li>
+						<li>Star map</li>
+						<li>Weather API</li>
+						<li>Planet API / Celestial Events API</li>
+					</ul>
+				</section>
+				<section class="closing">
+					<img src="assets/logo_shadow.png" alt="Eclipse Logo">
+					<div class="titles">
+						<h3>Thanks for listening!</h3>
+						<h4>Ask us anythiing</h4>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

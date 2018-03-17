@@ -1,0 +1,71 @@
+body {
+  background: #202020;
+	background-color: #202020;
+	color:#D0D0D0;
+  display: block;
+  position: relative;
+}
+body::after{
+	content: "";
+  background: url("../assets/space.jpg");
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.reveal section img {
+	background-color:transparent;
+	border:none;
+	box-shadow:none;
+}
+
+.reveal section .titles{
+	padding-top:64px;
+}
+.titles h2{
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 500;
+	text-transform: initial;
+	font-size: 40px;
+}
+.titles h3{
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 500;
+	text-transform: initial;
+	font-size: 32px;
+	margin-bottom:64px;
+	color:#21a3e4;
+}
+.titles p{
+	font-family: "Open Sans Light", sans-serif;
+	font-weight: 200;
+	font-size:16px;
+}
+.reveal ul li{
+	font-family:"Open Sans Light";
+	padding-bottom:25px;
+	font-size:28px;
+}
+h3.slogan{
+	font-size:24px;
+	color:#C0C0C0;
+}
+
+
+.slide-background.closing{
+	background-image:url('../assets/space.jpg')
+}
+.closing .titles h3{
+	color:white;
+	margin:0;
+}
+
+.closing img{
+	height:80px;
+}
